@@ -13,7 +13,7 @@ import org.bukkit.entity.Player;
 
 @CommandPermissions(source = SourceType.ANY, permission = "tatsucraftcore.ban")
 @CommandParameters(description = "Bans a player.", usage = "/ban <player> <reason>")
-public class Command_ban extends BukkitCommand
+public class Command_ban extends BukkitCommand<TatsuCraftCore>
 {
     private TatsuCraftCore plugin;
     @Override

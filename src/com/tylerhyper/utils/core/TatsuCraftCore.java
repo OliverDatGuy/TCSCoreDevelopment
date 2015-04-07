@@ -1,7 +1,9 @@
 package com.tylerhyper.utils.core;
 
 import com.tylerhyper.utils.core.commands.BukkitCommandHandler;
+import com.tylerhyper.utils.core.commands.Command_ban;
 import com.tylerhyper.utils.core.commands.Command_kick;
+import com.tylerhyper.utils.core.commands.Command_promote;
 import com.tylerhyper.utils.core.listener.TatsuCraftListener;
 import java.io.File;
 import net.pravian.bukkitlib.BukkitLib;
@@ -40,6 +42,8 @@ public class TatsuCraftCore extends BukkitPlugin {
         logger.debug("Debug mode enabled!");
 
         handler.setCommandLocation(Command_kick.class.getPackage());
+        handler.setCommandLocation(Command_ban.class.getPackage());
+        handler.setCommandLocation(Command_promote.class.getPackage());
         
         String pluginFolder = this.getDataFolder().getAbsolutePath();
         (new File(pluginFolder)).mkdir();
