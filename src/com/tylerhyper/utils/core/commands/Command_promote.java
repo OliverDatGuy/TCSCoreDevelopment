@@ -8,6 +8,8 @@ import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
+@CommandPermissions(source = SourceType.ANY, permission = "tatsucraftcore.promote")
+@CommandParameters(description = "Promotes a player.", usage = "/promote <player> <reason>")
 public class Command_promote extends BukkitCommand 
 {
     @Override
