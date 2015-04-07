@@ -6,6 +6,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
+import com.mcbans.firestar.mcbans.events.PlayerGlobalBanEvent;
+import org.bukkit.Bukkit;
 
 public class TatsuCraftListener implements Listener {
     private final TatsuCraftCore plugin;
@@ -28,5 +30,12 @@ public class TatsuCraftListener implements Listener {
         plugin.getLogger().info(MODPREFIX + event.getPlayer().getName() + " has joined the server.");
         }
         else {}
+    }
+    @EventHandler
+    public void onPlayerGlobalBan(final PlayerGlobalBanEvent event){
+        final String ip = event.getPlayerIP();
+        final String playername = event.getPlayerName();
+        String pn = (playername != null && playername.length() > 0) ? "[" + playername + "]" : "";
+        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "banip " + ip + " " + pn);;
     }
 }
