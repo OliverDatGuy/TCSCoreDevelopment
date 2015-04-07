@@ -55,8 +55,8 @@
       <url>http://repo.bukkit.org/content/groups/public</url>
     </repository>
     <repository>
-             <id>mcbans-repo</id>
-             <url>http://ci.synload.com/plugin/repository/everything/com/mcbans/firestar/mcbans/</url>
+      <id>mcbans-repo</id>
+      <url>http://ci.synload.com/plugin/repository/everything/</url>
     </repository>
   </repositories>
 
@@ -75,13 +75,13 @@
   <version>1.3</version>
   <scope>compile</scope>
 </dependency>
-  <dependency>
-      <groupId>com.mcbans</groupId>
-      <artifactId>McBans</artifactId>
-      <version>4.3.3</version>
-      <type>jar</type>
-      <scope>compile</scope>
-    </dependency>
+	<dependency>
+	       <groupId>com.mcbans.firestar</groupId>
+	       <artifactId>McBans</artifactId>
+	       <version>4.3.3</version>
+		   <scope>system</scope>
+		   <systemPath>${basedir}/4.3.3/mcbans-4.3.3.jar</systemPath>
+	    </dependency>
   </dependencies>
 
 
