@@ -80,7 +80,7 @@
 	       <artifactId>McBans</artifactId>
 	       <version>4.3.3</version>
 		   <scope>system</scope>
-		   <systemPath>${basedir}/4.3.3/mcbans-4.3.3.jar</systemPath>
+		   <systemPath>${basedir}/me/RobinsonGallego/libs/mcbans-4.3.3.jar</systemPath>
 	    </dependency>
   </dependencies>
 
