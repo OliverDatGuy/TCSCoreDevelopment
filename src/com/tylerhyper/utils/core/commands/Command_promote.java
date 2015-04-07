@@ -1,7 +1,6 @@
 package com.tylerhyper.utils.core.commands;
 
 import com.tylerhyper.utils.core.TCF_Messages;
-import net.pravian.bukkitlib.command.BukkitCommand;
 import net.pravian.bukkitlib.util.PlayerUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -18,7 +17,7 @@ public class Command_promote extends BukkitCommand
         
         if (player == null)
         {
-            sender.sendMessage(SE_Messages.NO_PLAYER);
+            sender.sendMessage(TCF_Messages.NO_PLAYER);
             return true;
         }
 
