@@ -1,4 +1,4 @@
-package com.tylerhyper.utils.core.commands;
+package org.TatsuCraft.Core.Commands;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

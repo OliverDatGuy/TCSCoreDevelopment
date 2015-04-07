@@ -1,4 +1,4 @@
-package com.tylerhyper.utils.core.commands;
+package org.TatsuCraft.Core.Commands;
 
 /**
  * Represents an interface from which messages may be retrieved

@@ -1,4 +1,4 @@
-package com.tylerhyper.utils.core;
+package org.TatsuCraft.Core;
  
 import java.lang.ProcessBuilder.Redirect.Type;
 import org.bukkit.entity.Player;
@@ -15,7 +15,7 @@ public class EnforcerEvent extends Event {
                 this.t = t;
         }
 
-    public EnforcerEvent(Player player, com.tylerhyper.utils.core.Type type)
+    public EnforcerEvent(Player player, org.TatsuCraft.Core.Type type)
     {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

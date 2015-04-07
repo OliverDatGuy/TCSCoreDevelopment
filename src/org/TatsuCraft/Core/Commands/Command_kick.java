@@ -1,6 +1,6 @@
-package com.tylerhyper.utils.core.commands;
+package org.TatsuCraft.Core.Commands;
 
-import com.tylerhyper.utils.core.TatsuCraftCore;
+import org.TatsuCraft.Core.TatsuCraftCore;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import static org.bukkit.Bukkit.getPlayer;

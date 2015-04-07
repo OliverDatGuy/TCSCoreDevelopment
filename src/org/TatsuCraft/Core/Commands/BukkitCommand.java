@@ -1,4 +1,4 @@
-package com.tylerhyper.utils.core.commands;
+package org.TatsuCraft.Core.Commands;
 
 import java.util.Set;
 import net.pravian.bukkitlib.implementation.BukkitLogger;

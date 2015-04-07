@@ -1,6 +1,6 @@
-package com.tylerhyper.utils.core.modules;
+package org.TatsuCraft.Core.Modules;
 
-import com.tylerhyper.utils.core.TatsuCraftCore;
+import org.TatsuCraft.Core.TatsuCraftCore;
 import org.bukkit.Server;
 
 public class TatsuCraftModule

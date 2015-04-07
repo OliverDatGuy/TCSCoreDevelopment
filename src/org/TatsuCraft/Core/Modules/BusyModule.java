@@ -1,9 +1,9 @@
-package com.tylerhyper.utils.core.modules;
+package org.TatsuCraft.Core.Modules;
 
-import com.tylerhyper.utils.core.modules.TatsuCraftModule;
+import org.TatsuCraft.Core.Modules.TatsuCraftModule;
 import java.util.ArrayList;
 import java.util.List;
-import com.tylerhyper.utils.core.TatsuCraftCore;
+import org.TatsuCraft.Core.TatsuCraftCore;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

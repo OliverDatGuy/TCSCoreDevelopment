@@ -1,7 +1,7 @@
-package com.tylerhyper.utils.core.commands;
+package org.TatsuCraft.Core.Commands;
 
-import com.tylerhyper.utils.core.TC_Messages;
-import com.tylerhyper.utils.core.TatsuCraftCore;
+import org.TatsuCraft.Core.TC_Messages;
+import org.TatsuCraft.Core.TatsuCraftCore;
 import net.pravian.bukkitlib.util.PlayerUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

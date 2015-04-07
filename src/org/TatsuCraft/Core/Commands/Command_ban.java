@@ -1,8 +1,8 @@
-package com.tylerhyper.utils.core.commands;
+package org.TatsuCraft.Core.Commands;
 
-import com.tylerhyper.utils.core.EnforcerEvent;
-import com.tylerhyper.utils.core.TatsuCraftCore;
-import com.tylerhyper.utils.core.Type;
+import org.TatsuCraft.Core.EnforcerEvent;
+import org.TatsuCraft.Core.TatsuCraftCore;
+import org.TatsuCraft.Core.Type;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;

@@ -1,4 +1,4 @@
-package com.tylerhyper.utils.core;
+package org.TatsuCraft.Core;
 
 import java.util.Arrays;
 import java.util.List;

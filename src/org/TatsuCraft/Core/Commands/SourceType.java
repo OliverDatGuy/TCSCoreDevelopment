@@ -1,4 +1,4 @@
-package com.tylerhyper.utils.core.commands;
+package org.TatsuCraft.Core.Commands;
 
 /**
  * Represents the different sources a command execution might originate from.

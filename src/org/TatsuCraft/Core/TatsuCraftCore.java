@@ -1,10 +1,10 @@
-package com.tylerhyper.utils.core;
+package org.TatsuCraft.Core;
 
-import com.tylerhyper.utils.core.commands.BukkitCommandHandler;
-import com.tylerhyper.utils.core.commands.Command_ban;
-import com.tylerhyper.utils.core.commands.Command_kick;
-import com.tylerhyper.utils.core.commands.Command_promote;
-import com.tylerhyper.utils.core.listener.TatsuCraftListener;
+import org.TatsuCraft.Core.Commands.BukkitCommandHandler;
+import org.TatsuCraft.Core.Commands.Command_ban;
+import org.TatsuCraft.Core.Commands.Command_kick;
+import org.TatsuCraft.Core.Commands.Command_promote;
+import org.TatsuCraft.Core.Listener.TatsuCraftListener;
 import java.io.File;
 import net.pravian.bukkitlib.BukkitLib;
 import net.pravian.bukkitlib.config.YamlConfig;

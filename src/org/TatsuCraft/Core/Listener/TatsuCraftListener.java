@@ -1,7 +1,7 @@
-package com.tylerhyper.utils.core.listener;
+package org.TatsuCraft.Core.Listener;
 
-import com.tylerhyper.utils.core.TatsuCraftCore;
-import static com.tylerhyper.utils.core.TatsuCraftCore.MODPREFIX;
+import org.TatsuCraft.Core.TatsuCraftCore;
+import static org.TatsuCraft.Core.TatsuCraftCore.MODPREFIX;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
