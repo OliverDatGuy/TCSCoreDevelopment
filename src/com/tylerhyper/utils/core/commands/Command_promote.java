@@ -17,7 +17,7 @@ public class Command_promote extends BukkitCommand
         
         if (player == null)
         {
-            sender.sendMessage(TC_Messages.NO_PLAYER);
+            sender.sendMessage(TCF_Messages.NO_PLAYER);
             return true;
         }
 
