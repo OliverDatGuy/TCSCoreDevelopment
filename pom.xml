@@ -52,7 +52,7 @@
     <repositories>
         <repository>
             <id>craftbukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public/</url>
+            <url>http://repo.bukkit.org/content/groups/public/org/bukkit/bukkit/</url>
         </repository>
     </repositories>
 
@@ -60,13 +60,13 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.7.5-R0.1-SNAPSHOT</version>
+            <version>bukkit-1.7.9-R0.2</version>
         </dependency>
 
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>craftbukkit</artifactId>
-            <version>1.8-R0.1T</version>
+            <version>1.7.5-R0.1</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
