@@ -1,5 +1,9 @@
-package org.TatsuCraft.Core.Commands;
+package org.TatsuCraft.Core.Commands.NoSlash;
 
+import org.TatsuCraft.Core.Commands.BukkitCommand;
+import org.TatsuCraft.Core.Commands.CommandParameters;
+import org.TatsuCraft.Core.Commands.CommandPermissions;
+import org.TatsuCraft.Core.Commands.SourceType;
 import org.TatsuCraft.Core.EnforcerEvent;
 import org.TatsuCraft.Core.TatsuCraftCore;
 import org.TatsuCraft.Core.Type;

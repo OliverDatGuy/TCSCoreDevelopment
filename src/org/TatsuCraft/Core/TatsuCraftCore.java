@@ -1,7 +1,7 @@
 package org.TatsuCraft.Core;
 
 import org.TatsuCraft.Core.Commands.BukkitCommandHandler;
-import org.TatsuCraft.Core.Commands.Command_ban;
+import org.TatsuCraft.Core.Commands.NoSlash.Command_ban;
 import org.TatsuCraft.Core.Commands.Command_kick;
 import org.TatsuCraft.Core.Commands.Command_promote;
 import org.TatsuCraft.Core.Listener.TatsuCraftListener;
