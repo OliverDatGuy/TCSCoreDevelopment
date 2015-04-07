@@ -1,4 +1,4 @@
-package me.RobinsonGallego.TatsuCraft.Personal.Commands;
+package me.RobinsonGallego.PersonalCommands;
 
 import org.TatsuCraft.Core.TatsuCraftCore;
 import net.pravian.bukkitlib.command.BukkitCommand;
