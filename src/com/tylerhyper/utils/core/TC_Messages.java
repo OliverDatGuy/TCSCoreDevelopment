@@ -2,7 +2,7 @@ package com.tylerhyper.utils.core;
 
 import org.bukkit.ChatColor;
 
-public class TCF_Messages {
+public class TC_Messages {
    public static final String NO_PLAYER = ChatColor.RED + "That username cannot be found. Ensure your spelling is correct.";
    public static final String NO_PREMS = ChatColor.DARK_RED + "You don't have the required permissions to execute this command.";
    public static final String USAGE = ChatColor.GRAY + "The proper usage for this command is: ";
