@@ -1,6 +1,7 @@
 package com.tylerhyper.utils.core.commands;
 
 import com.tylerhyper.utils.core.TC_Messages;
+import com.tylerhyper.utils.core.TatsuCraftCore;
 import net.pravian.bukkitlib.util.PlayerUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -8,7 +9,9 @@ import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
-public class Command_promote extends BukkitCommand 
+@CommandPermissions(source = SourceType.ANY, permission = "tatsucraftcore.promote")
+@CommandParameters(description = "Promotes a player.", usage = "/promote <player> <reason>")
+public class Command_promote extends BukkitCommand<TatsuCraftCore>
 {
     @Override
     public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args)
