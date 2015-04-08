@@ -35,7 +35,7 @@ public class TatsuCraftCore extends BukkitPlugin {
     
     @Override
     public void onEnable() {
-        logger.info("TatsuCraftCore made by tylerhyperHD");
+        logger.info("TatsuCraftCore made by tylerhyperHD, xDestroyer217 & Revalation");
         BukkitLib.init(plugin);
         config.load();
         logger.setDebugMode(config.getBoolean("debug"));
