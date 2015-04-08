@@ -7,7 +7,7 @@ import net.pravian.bukkitlib.command.SourceType;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
-@CommandPermissions(source = SourceType.PLAYER, permission = "")
+@CommandPermissions(source = SourceType.PLAYER, permission = "tatsucraft.core.rules")
 public class rules extends BukkitCommand<TatsuCraftCore>
 {
     @Override
