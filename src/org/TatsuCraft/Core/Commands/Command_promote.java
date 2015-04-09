@@ -63,7 +63,7 @@ public class Command_promote extends BukkitCommand<TatsuCraftCore>
             return true;
 
         }
-        else if (args[1].equalsIgnoreCase("jr.admin"))
+        else if (args[1].equalsIgnoreCase("jradmin"))
         {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " jr.admin");
             player.setOp(true);           
@@ -85,7 +85,7 @@ public class Command_promote extends BukkitCommand<TatsuCraftCore>
             Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + TC_Messages.PROMOTE + ChatColor.RED + " Admin! Congrats :D");
             return true;
         }
-        else if (args[1].equalsIgnoreCase("sr.admin"))
+        else if (args[1].equalsIgnoreCase("sradmin"))
         {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " sr.admin");
             Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + TC_Messages.PROMOTE + ChatColor.RED + " Sr. Admin! Congrats :D");
