@@ -1,6 +1,10 @@
+/*
+ Some content made by TotalFreedom(r) by MadGeek40 and Prozza
+*/
+
 package org.TatsuCraft.Core.Listener;
 
-import org.TatsuCraft.Core
+import org.TatsuCraft.Core.TatsuCraftCore;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -11,9 +15,9 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 public class JoinEvents implements Listener {
     
-    public ShadowEra plugin;
+    public TatsuCraftCore plugin;
        
-        public JoinEvents(ShadowEra instance){
+        public JoinEvents(TatsuCraftCore instance){
                 plugin = instance;
         }
     
@@ -40,11 +44,10 @@ public class JoinEvents implements Listener {
             //Entrance
             Bukkit.broadcastMessage(ChatColor.AQUA + "Revalation is the " + ChatColor.DARK_PURPLE + "Lead Developer!");
         }
-    }
         else if (username.equalsIgnoreCase("OliverDatGuy"))
         {
             //Entrance
-            Bukkit.broadcastMessage(ChatColor.AQUA + "OliverDatGuy is " + ChatColor.PURPLE + "wayne purrrkle &" + ChatColor.DARK_RED + " a Junior Moderator!");
+            Bukkit.broadcastMessage(ChatColor.AQUA + "OliverDatGuy is " + ChatColor.DARK_PURPLE + "wayne purrrkle &" + ChatColor.DARK_RED + " a Junior Moderator!");
         }
         else if (username.equalsIgnoreCase("lhaberman") || (username.equalsIgnoreCase("creeperscontrolu")))
         {
