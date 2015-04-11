@@ -40,6 +40,12 @@ public class JoinEvents implements Listener {
             //Entrance
             Bukkit.broadcastMessage(ChatColor.AQUA + "Revalation is the " + ChatColor.DARK_PURPLE + "Lead Developer!");
         }
+    }
+        else if (username.equalsIgnoreCase("OliverDatGuy"))
+        {
+            //Entrance
+            Bukkit.broadcastMessage(ChatColor.AQUA + "OliverDatGuy is " + ChatColor.PURPLE + "wayne purrrkle &" + ChatColor.DARK_RED + " a Junior Moderator!");
+        }
         else if (username.equalsIgnoreCase("lhaberman") || (username.equalsIgnoreCase("creeperscontrolu")))
         {
             //Entrance
