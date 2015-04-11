@@ -1,3 +1,23 @@
 name: TatsuCraftCore
 main: org.TatsuCraft.Core.TatsuCraftCore
 version: 1.2 Build 12
+#Lalalalalalaa.
+commands:
+  owner:
+    description: Check if the owner is online
+    usage: /<command>
+    aliases: [o]
+    permission: tatsucraftcore.owner
+    permission-message: §9[RevMCCore] §cYou don't have enough permissions.
+  promote:
+    description: Promote a user!
+    usage: /<command> <user> <rank>
+    permission: tatsucraftcore.promote
+    permission-message: §9[TatsuSCore] §cYou don't have enough permissions.
+  kick:
+    description: Force a user to preform a command.
+    usage: /<command> <player> <reason>
+    aliases: []
+    permission: tatsucraftcore.kick
+    permission-message: §9[TatsuSCore] §cYou don't have enough permissions.
+  
